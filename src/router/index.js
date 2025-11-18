@@ -16,6 +16,10 @@ const routes = [
     path: "/",
     component: () => import("../components/Admin/QLLC/index.vue"),
   },
+  {
+    path: "/qldv",
+    component: () => import("../components/Admin/QLDV/index.vue"),
+  },
 ];
 
 const router = createRouter({
