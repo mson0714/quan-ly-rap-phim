@@ -1,8 +1,8 @@
 import { createRouter, createWebHistory } from "vue-router"; // cài vue-router: npm install vue-router@next --save
 const routes = [
   {
-    path: "/",
-    component: () => import("../components/Admin/TenChucNang(QLND)/index.vue"),
+    path: "/admin/quan-ly-nguoi-dung",
+    component: () => import("../components/Admin/QuanLyNguoiDung/index.vue"),
   },
 ];
 
