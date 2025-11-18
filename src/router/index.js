@@ -4,6 +4,10 @@ const routes = [
     path: "/",
     component: () => import("../components/Admin/TenChucNang(QLND)/index.vue"),
   },
+  {
+    path: "/quan-ly-phim",
+    component: () => import("../components/Admin/QuanLyPhim/index.vue"),
+  },
 ];
 
 const router = createRouter({
