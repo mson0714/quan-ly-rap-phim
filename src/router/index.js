@@ -2,8 +2,7 @@ import { createRouter, createWebHistory } from "vue-router"; // cài vue-router:
 const routes = [
   {
     path: "/",
-    component: () => import("../components/Client/TrangChu/index.vue"),
-    meta: { layout: "client" },
+    component: () => import("../components/Admin/TenChucNang(QLND)/index.vue"),
   },
 ];
 
