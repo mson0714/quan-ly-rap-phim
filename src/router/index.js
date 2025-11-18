@@ -12,6 +12,10 @@ const routes = [
     path: "/quan-ly-phim",
     component: () => import("../components/Admin/QuanLyPhim/index.vue"),
   },
+  {
+    path: "/",
+    component: () => import("../components/Admin/QLLC/index.vue"),
+  },
 ];
 
 const router = createRouter({
