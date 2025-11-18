@@ -4,6 +4,10 @@ const routes = [
     path: "/",
     component: () => import("../components/Admin/TenChucNang(QLND)/index.vue"),
   },
+  {
+    path: "/",
+    component: () => import("../components/Admin/QLLC/index.vue"),
+  },
 ];
 
 const router = createRouter({
