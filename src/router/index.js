@@ -5,6 +5,10 @@ const routes = [
     component: () => import("../components/Admin/TenChucNang(QLND)/index.vue"),
   },
   {
+    path: "/quan-ly-phim",
+    component: () => import("../components/Admin/QuanLyPhim/index.vue"),
+  },
+  {
     path: "/admin/quan-ly-phong-chieu",
     component: () => import("../components/Admin/QuanLyPhongChieu/index.vue"),
   },
