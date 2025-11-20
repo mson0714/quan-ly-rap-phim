@@ -2,19 +2,30 @@ import { createRouter, createWebHistory } from "vue-router"; // cài vue-router:
 const routes = [
   {
     path: "/",
-    component: () => import("../components/Admin/TenChucNang(QLND)/index.vue"),
+    component: () => import("../components/Admin/TenChucNang(QLND)/quanLyVoucher.vue"),
+  },
+  {
+    path: "/thanh-toan",
+    component: () => import("../components/Admin/TenChucNang(QLND)/quanLyThanhToan.vue"),
   },
   {
     path: "/quan-ly-phim",
     component: () => import("../components/Admin/QuanLyPhim/index.vue"),
   },
   {
-    path: "/admin/quan-ly-phong-chieu",
-    component: () => import("../components/Admin/QuanLyPhongChieu/index.vue"),
+    path: "/",
+    component: () => import("../components/Admin/QLLC/index.vue"),
   },
-  
-
+  {
+    path: "/qldv",
+    component: () => import("../components/Admin/QLDV/index.vue"),
+  },
+  {
+    path: "/QLND",
+    component: () => import("../components/Admin/QuanLyNguoiDung/index.vue"),
+  },
 ];
+
 const router = createRouter({
   history: createWebHistory(),
   routes: routes,
