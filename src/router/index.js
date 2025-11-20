@@ -21,6 +21,10 @@ const routes = [
     component: () => import("../components/Admin/QLDV/index.vue"),
   },
   {
+    path: "/qldg-ph",
+    component: () => import("../components/Admin/QLDG&PH/index.vue"),
+  },
+  {
     path: "/QLND",
     component: () => import("../components/Admin/QuanLyNguoiDung/index.vue"),
   },
