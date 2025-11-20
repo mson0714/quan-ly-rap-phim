@@ -12,7 +12,6 @@
             Thêm nhân viên
           </button>
         </div>
-
         <div class="card-body table-responsive">
           <div class="input-group mb-3">
             <input type="text" class="form-control" placeholder="Search...." />
@@ -123,7 +122,7 @@
     <div class="modal-dialog modal-lg">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title">Cập Nhật Thông Tin</h5>
+          <h5 class="modal-title">Cập Nhật Thông Tin </h5>
           <button
             type="button"
             class="btn-close"
