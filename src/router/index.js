@@ -20,6 +20,10 @@ const routes = [
     path: "/qldv",
     component: () => import("../components/Admin/QLDV/index.vue"),
   },
+  {
+    path: "/QLND",
+    component: () => import("../components/Admin/QuanLyNguoiDung/index.vue"),
+  },
 ];
 
 const router = createRouter({
