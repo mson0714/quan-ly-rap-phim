@@ -24,6 +24,10 @@ const routes = [
     path: "/QLND",
     component: () => import("../components/Admin/QuanLyNguoiDung/index.vue"),
   },
+  {
+    path: "/quan-ly-phong-chieu",
+    component: () => import("../components/Admin/QuanLyPhongChieu/index.vue"),
+  },
 ];
 
 const router = createRouter({
