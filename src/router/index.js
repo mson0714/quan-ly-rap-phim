@@ -32,6 +32,10 @@ const routes = [
     path: "/quan-ly-phong-chieu",
     component: () => import("../components/Admin/QuanLyPhongChieu/index.vue"),
   },
+  {
+    path: "/quan-ly-ph-danh-gia",
+    component: () => import("../components/Admin/QLPH&DG/index.vue"),
+  },
 ];
 
 const router = createRouter({
