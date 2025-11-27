@@ -2,10 +2,14 @@ import { createRouter, createWebHistory } from "vue-router"; // cài vue-router:
 const routes = [
   {
     path: "/",
+    component: () => import("../components/Admin/TenChucNang(QLND)/index.vue"),
+  },
+  {
+    path: "/quan-ly-voucher",
     component: () => import("../components/Admin/TenChucNang(QLND)/quanLyVoucher.vue"),
   },
   {
-    path: "/thanh-toan",
+    path: "/quan-ly-thanh-toan",
     component: () => import("../components/Admin/TenChucNang(QLND)/quanLyThanhToan.vue"),
   },
   {
@@ -13,29 +17,26 @@ const routes = [
     component: () => import("../components/Admin/QuanLyPhim/index.vue"),
   },
   {
-    path: "/",
+    path: "/quan-ly-lich-chieu",
     component: () => import("../components/Admin/QLLC/index.vue"),
   },
   {
-    path: "/qldv",
+    path: "/quan-ly-dich-vu",
     component: () => import("../components/Admin/QLDV/index.vue"),
   },
   {
-    path: "/qldg-ph",
+    path: "/quan-ly-danh-gia-phan-hoi",
     component: () => import("../components/Admin/QLDG&PH/index.vue"),
   },
   {
-    path: "/QLND",
+    path: "/quan-ly-nguoi-dung",
     component: () => import("../components/Admin/QuanLyNguoiDung/index.vue"),
   },
   {
     path: "/quan-ly-phong-chieu",
     component: () => import("../components/Admin/QuanLyPhongChieu/index.vue"),
   },
-  {
-    path: "/quan-ly-ph-danh-gia",
-    component: () => import("../components/Admin/QLPH&DG/index.vue"),
-  },
+  
 ];
 
 const router = createRouter({

@@ -1,5 +1,5 @@
 <template>
-    
+    Home ADMIN
 </template>
 <script>
 export default {
