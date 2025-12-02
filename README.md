@@ -1,4 +1,4 @@
-# 🎬 Cinema Management System - Frontend
+# 🎬 Hệ thống quản lý rạp phim - Frontend
 
 ## 📋 Tổng Quan
 
