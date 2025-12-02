@@ -169,7 +169,7 @@ export default defineConfig({
 ```
 
 ### Vue Router Configuration
-Sử dụng `createWebHistory()` mode cho clean URLs.
+Sử dụng `createWebHistory()` mode cho clean URLs
 
 ## 📦 Dependencies
 
