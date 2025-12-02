@@ -1,6 +1,11 @@
 <template>
   <div class="container mt-3">
-    <div class="d-flex justify-content-between align-items-center mb-3">
+   
+
+   <div class="card">
+    <div class="card-body">
+
+       <div class="d-flex justify-content-between align-items-center mb-3">
       <div class="d-flex align-items-center">
         <button class="btn btn-link p-0 me-2">&larr;</button>
         <h5 class="mb-0">QUẢN LÝ VÉ VÀ ĐẶT VÉ</h5>
@@ -53,7 +58,7 @@
       </div>
     </div>
 
-    <table class="table table-bordered mt-4 text-center">
+       <table class="table table-bordered mt-4 text-center">
       <thead>
         <tr>
           <th>#</th>
@@ -100,6 +105,8 @@
         </tr>
       </tbody>
     </table>
+    </div>
+   </div>
   </div>
 </template>
 <script>

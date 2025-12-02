@@ -14,7 +14,8 @@
       <button class="btn btn-primary">Tìm Kiếm</button>
     </span>
 
-    <table class="table table-bordered mt-3 text-center">
+   <div class="card"><div class="card-body">
+     <table class="table table-bordered mt-3 text-center">
       <thead>
         <tr>
           <th>STT</th>
@@ -47,6 +48,7 @@
         </tr>
       </tbody>
     </table>
+   </div></div>
 
     <div class="d-flex justify-content-end mt-2">
       <button class="btn btn-warning">Tạo vé</button>

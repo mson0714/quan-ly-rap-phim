@@ -9,9 +9,11 @@
 
     </span>
 
-    <table class="table table-bordered mt-3">
+    <div class="card">
+        <div class="card-body table-responsive">
+            <table class="table table-bordered mt-3">
         <thead>
-            <tr>
+            <tr class="bg-primary text-white">
                 <th>Mã Phim</th>
                 <th>Tên Phim</th>
                 <th>Hình Ảnh</th>
@@ -42,6 +44,8 @@
             </tr>
         </tbody>
     </table>
+        </div>
+    </div>
     
 </template>
 <script>

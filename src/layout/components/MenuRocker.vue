@@ -92,6 +92,16 @@
 						</a>
 					</li>
 				</router-link>
+					<router-link to="/quan-ly-dat-ve">
+						<li class="nav-item">
+						<a class="nav-link">
+							<div class="parent-icon">
+								<i class="bx bx-ticket"></i>
+							</div>
+							<div class="menu-title text-nowrap">Quản Lý Đặt Vé</div>
+						</a>
+					</li>
+				</router-link>
 			</ul>
 		</nav>
 	</div>

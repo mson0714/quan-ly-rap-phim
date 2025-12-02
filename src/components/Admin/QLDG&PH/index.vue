@@ -1,6 +1,8 @@
 <template>
   <div class="container mt-3">
-    <div class="d-flex justify-content-between align-items-center mb-3">
+    <div class="card">
+      <div class="card-body">
+        <div class="d-flex justify-content-between align-items-center mb-3">
       <div class="d-flex align-items-center">
         <button class="btn btn-link p-0 me-2">&larr;</button>
         <h5 class="mb-0">QUẢN LÝ PHẢN HỒI & ĐÁNH GIÁ</h5>
@@ -98,6 +100,8 @@
         </tr>
       </tbody>
     </table>
+      </div>
+    </div>
   </div>
 </template>
 
